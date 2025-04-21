@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> POPE DRIP </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home </a></li>
+                <li><a href="#tokenomics">Tokenomics </a></li>
+                <li><a href="#roadmap">How To Buy </a></li>
+                <li><a href="#meme">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>POPE DRIP</h1>
+            <p class="hero-description">POPE DRIP tailors its services based on user behavior and preferences, providing a unique and efficient experience for beginners and experts alike</p>
+            <button class="cta-button"></button>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section class="tokenomics" id="tokenomics">
+        <h2>Tokenomics</h2>
+        <p></p>
+        <ul class="tokenomics-list">
+            <li>Token Name : POPE DRIP</li>
+            <li>Ticker : $POPE DRIP</li>
+            <li>LP : Burn</li>
+        </ul>
+    </section>
+<center>
+    <!-- Roadmap Section -->
+    <section class="roadmap" id="roadmap">
+        <h2>How To Buy</h2>
+        <ol class="roadmap-steps">
+            <li>Download Phantom Wallet</li>
+            <li>Buy Solana On Cex</li>
+            <li>Buy On Pump.fun</li>
+        </ol>
+    </section>
+</center>
+    <!-- Meme Gallery Section -->
+    <section class="meme-gallery" id="meme">
+        <h2> Gallery </h2>
+        <div class="gallery">
+            <div class="meme">
+                <img src="1.jpg" alt="Meme 1" width="150px">
+            </div>
+            <div class="meme">
+                <img src="1.jpg" alt="Meme 2" width="150px">
+            </div>
+            <div class="meme">
+                <img src="1.jpg" alt="Meme 3" width="150px">
+            </div>
+        </div>
+    </section>
+    <center>
+    <section class="ca-section">
+        <p class="ca-text">CA : xxxxx</p>
+        <button class="copy-btn" onclick="copyText()">Copy CA</button>
+        <div id="notification" class="notification">CA has been copied!</div>
+      </section>
+    </center>
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 $POPE DRIP</p>
+    </footer>
+
+    <script>
+        function copyText() {
+          navigator.clipboard.writeText("xxxxx");
+          showNotification();
+        }
+    
+        function showNotification() {
+          const notification = document.getElementById("notification");
+          notification.style.display = "block";
+          setTimeout(() => {
+            notification.style.display = "none";
+          }, 2000);
+        }
+      </script>
+</body>
+</html>
